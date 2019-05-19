@@ -1,0 +1,135 @@
+#website-title {
+	font-family: handlee;
+	font-color: darkgreen;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+  font-size: 26px;
+  padding-top: 15px;
+}
+
+#title-subheading {
+  text-align: center;
+  font-size: 26px;
+  font-color: orange;
+  font-family: aclonica;
+}
+
+#menu-button {
+  right: 0;
+}
+
+
+
+.navbar-brand.navbar-brand-fullwidth {
+width: 100%;
+height: 75px;
+}
+
+div.outer-container {
+  padding: 0px 15px 0px 15px;
+  margin-bottom: 20px;
+}
+
+div.inner-container {
+  background-color: pink;
+  padding-left: 10px;
+  border: 3px solid black;
+
+
+} 
+
+.toggle-display {
+  display: inline-block;
+}
+
+div.relative {
+  /*position: relative;*/
+  
+  background-color: pink;
+  border: 3px solid black;
+  /*width: 400px;*/
+  height: 200px;
+} 
+div.header-container {
+  width:100%;
+}
+
+div.header {
+  /*position: absolute;*/
+  float: right;
+  text-align: center;
+  top: 0px;
+  right: 0;
+  width: 200px;
+  border: 2px solid #73AD21;
+  background-color: orange;
+}
+
+/*** extra small media***/
+@media (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-6, .col-xs-12 {
+    float: left;
+    /*position: relative;*/
+  } 
+  .col-xs-1{ 
+  width: 8.33%; 
+  }
+  .col-xs-2{
+    width: 16.66%;
+  }
+  .col-xs-3{
+    width: 25%;
+  }
+  .col-xs-6{
+    width: 50%;
+  }
+  .col-xs-12{
+    width:100%;
+  }
+}
+/***medium media***/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-6{
+  width: 50%;
+  }
+  .col-md-12{
+  width:100%;
+  }
+  .bar{
+    width: 100%
+  }
+}
+/***large media***/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-4, .col-lg-6, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 50%;
+  }
+  .col-lg-2 {
+    width: 58.3%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-6{
+    width: 50%;
+  }
+  .col-lg-12{
+    width:100%;
+  }
+}
